@@ -13,27 +13,27 @@ element - HTML element
 
 1. Validate integer : 
 
-  `
+  ```
       jQuery(element).wkInputValidator({
         type:"integer",
         validateinput:true,
         compare:false
       });
-   `
+   ```
 
 2. Validate decimal :
 
-  `
+  ```
    jQuery(element).wkInputValidator({
         type:"decimal",
         validateinput:true,
         compare:false,
         decimalpoints:2
     });
-  `
+  ```
 
 3. Validate with compare :
-  `
+  ```
     jQuery(element).wkInputValidator({
         type:"decimal",
         validateinput:true,
@@ -42,4 +42,4 @@ element - HTML element
         compare_max:element2,
         decimalpoints:2
     });
-  `
+  ```
