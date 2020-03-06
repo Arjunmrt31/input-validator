@@ -1,3 +1,11 @@
+
+/**
+* @version: 0.0.1
+* @author: Arjun Singh
+* @copyright: Webkul Software https://webkul.com. All rights reserved.
+* 
+*/
+
 (function($) {
     $.wkInputValidator = function(element, options) {
         var $e = $(element);
